@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ubisoft Clone - Inicio</title>
+    <!-- CSS general y Carrusel -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="carousel.css">
+</head>
+
+<body>
+
+    <!-- Menú Superior de Navegación -->
+    <header class="navbar">
+        <div class="nav-container">
+            <!-- Logo texto -->
+            <a href="index.html" class="logo">
+                <h2 style="margin: 0; color: white;">MiWeb</h2>
+            </a>
+
+            <!-- 4 Enlaces a páginas placeholder con transiciones -->
+            <nav class="nav-links">
+                <a href="pages/enlace1.html">Tienda</a>
+                <a href="pages/enlace2.html">Noticias</a>
+                <a href="pages/enlace3.html">Juegos</a>
+                <a href="pages/enlace4.html">Soporte</a>
+            </nav>
+
+            <!-- Iconos de la derecha: Lupa y Perfil -->
+            <div class="nav-icons">
+                <button class="icon-btn search-icon" aria-label="Buscar">
+                    <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                </button>
+                <button class="icon-btn profile-icon" aria-label="Perfil">
+                    <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Carrusel Principal -->
+        <section class="carousel-container">
+            <div class="carousel">
+                <a href="pages/juego1.html" class="carousel-slide active">
+                    <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=2070&auto=format&fit=crop"
+                        alt="Assassin's Creed Concept">
+                    <div class="slide-content">
+                        <h2>El nuevo lanzamiento</h2>
+                        <p>Descubre el mundo abierto definitivo.</p>
+                        <span class="btn-primary">Ver más</span>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- Galería de 6 Juegos -->
+        <section class="games-gallery">
+            <h2 class="section-title">Nuestros Juegos</h2>
+            <div class="games-grid">
+                <!-- Juego 1 -->
+                <a href="pages/juego1.html" class="game-card">
+                    <img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=2071&auto=format&fit=crop"
+                        alt="Portada Juego 1">
+                    <div class="game-overlay">
+                        <h3>Juego Épico 1</h3>
+                    </div>
+                </a>
+                <!-- Juego 2 -->
+                <a href="pages/juego2.html" class="game-card">
+                    <img src="https://images.unsplash.com/photo-1552820728-8b83bb6b773f?q=80&w=2070&auto=format&fit=crop"
+                        alt="Portada Juego 2">
+                    <div class="game-overlay">
+                        <h3>Shooter Pro</h3>
+                    </div>
+                </a>
+                <!-- Juego 3 -->
+                <a href="pages/juego3.html" class="game-card">
+                    <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=2070&auto=format&fit=crop"
+                        alt="Portada Juego 3">
+                    <div class="game-overlay">
+                        <h3>Aventura Espacial</h3>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Pie de página y Redes Sociales -->
+    <footer class="footer">
+        <div class="social-networks">
+            <h3 class="social-title">Síguenos</h3>
+            <div class="social-icons-wrapper">
+                <a href="https://twitter.com/Ubisoft" target="_blank" class="social-icon" aria-label="Twitter">
+                    <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter">
+                </a>
+                <a href="https://facebook.com/Ubisoft" target="_blank" class="social-icon" aria-label="Facebook">
+                    <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook">
+                </a>
+                <a href="https://instagram.com/Ubisoft" target="_blank" class="social-icon" aria-label="Instagram">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram">
+                </a>
+                <a href="https://youtube.com/Ubisoft" target="_blank" class="social-icon" aria-label="Youtube">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="Youtube">
+                </a>
+                <a href="https://twitch.tv/Ubisoft" target="_blank" class="social-icon" aria-label="Twitch">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2111/2111668.png" alt="Twitch">
+                </a>
+                <a href="https://tiktok.com/@ubisoft" target="_blank" class="social-icon" aria-label="Tiktok">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png" alt="Tiktok">
+                </a>
+            </div>
+        </div>
+        <div class="footer-legal">
+            <p>&copy; 2024 Ubisoft Entertainment. All Rights Reserved. Ubisoft and the Ubisoft logo are registered or
+                unregistered trademarks of Ubisoft Entertainment in the US and/or other countries.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
