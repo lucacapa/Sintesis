@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Juego - Detalles</title>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        .game-header {
+            position: relative;
+            height: 50vh;
+            display: flex;
+            align-items: flex-end;
+        }
+
+        .game-banner {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+            filter: brightness(0.6);
+        }
+
+        .pegi-badge {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            width: 60px;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .game-title {
+            font-size: 4rem;
+            padding: 20px 40px;
+            color: #fff;
+        }
+
+        .game-info {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+            font-size: 1.2rem;
+            line-height: 1.8;
+            text-align: justify;
+        }
+
+        .mini-carousel {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin: 40px auto;
+            padding: 0 20px;
+            max-width: 1000px;
+        }
+
+        .mini-carousel img {
+            width: 100%;
+            max-width: 230px;
+            height: 130px;
+            object-fit: cover;
+            border-radius: 8px;
+            border: 2px solid transparent;
+            transition: none;
+            pointer-events: none;
+        }
+
+        .back-btn {
+            display: table;
+            margin: 40px auto;
+            padding: 15px 30px;
+            background: #0087ff;
+            color: white;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="game-header">
+        <img src="https://gaming-cdn.com/images/products/1273/380x218/titanfall-2-pc-juego-ea-app-cover.jpg?v=1703158431"
+            class="game-banner" alt="Banner Espacial">
+        <h1 class="game-title">Titanfall 2</h1>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/PEGI_16.svg/960px-PEGI_16.svg.png"
+            class="pegi-badge" alt="PEGI 18">
+    </header>
+    <main>
+        <section class="game-info">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, amet temporibus quas dolor doloribus
+                dolores doloremque mollitia, quisquam ut deleniti cupiditate porro esse, obcaecati omnis cum beatae eum
+                optio quos!</p>
+        </section>
+        <a href="../index.html" class="back-btn">← Volver al inicio</a>
+    </main>
+</body>
+
+</html>
